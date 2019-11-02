@@ -1,0 +1,17 @@
+#Exercise 1 of https://www.practicepython.org/
+#https://www.practicepython.org/exercise/2014/01/29/01-character-input.html
+
+name = input("Enter your name: ")
+print('Your name is ' + name)
+
+age = input("Enter your age in digits: ")
+xyz = (str(2019+100-int(age)))
+#xyz is equal to the year to turn into 100 years
+msg = ("Your age is " + age +" years " + "and you will turn 100 in the year " + xyz)
+print(msg)
+
+#Program Completed, Now performing extra tasks
+
+n = input("Enter a number between 1~5: ")
+msg += "\n"
+print(msg * int(n))
